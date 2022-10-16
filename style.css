@@ -472,7 +472,7 @@ a[data-lightbox]:hover::before {
     height: 50px;
     margin-left: -25px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(255, 255, 255, 0.6);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
@@ -485,6 +485,7 @@ a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
+   
 }
 #lightbox-modal {
     display: flex;
@@ -918,23 +919,28 @@ header{
     padding: 0px 20px;
 }
 header img{
-    height:40px;
+    
+    width: 100%;
+    height: 40px;
 }
 
 /* retouche image panthere */
 .center-block{
-    width: 100%;
+    width: 90px;
+    height: 90px;
+    
 }
 
 /* Citation */
 .voffset h2{
-    
+   
     font-size: 25px;
     margin-top: 50px;
 }
 .voffset p{
     font-size: 15px;
     flex-basis: 100%;
+    
 }
 /* Image bloc 4  */
 #bloc-4-portfolio{
@@ -944,7 +950,8 @@ header img{
 }
 #bloc-4-portfolio img{
     width: 100%;
-    height: auto;
+    height: 280px;
+    object-fit: cover;
 }
 #bloc-4-portfolio a{
    width: 100%;
@@ -960,6 +967,8 @@ header img{
     
     margin-bottom: 50px;
 }
+
+
 
 
 /* PAGE CONTACT MODIF */
@@ -988,9 +997,33 @@ header img{
 
 /* nouvelle media queries */
 @media (min-width: 767px){
-   .col-sm-6{
-   width: 100%;
-   }
+    #bloc-4-portfolio>div{
+        
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        
+    }
+   
+    .col-sm-6{
+   
+   
+   width: 50%;
+   
   
+   
+   
+   }
+   .col-sm-6 a{
+   
+    width: 100%;
+    height: auto;
+   }
+   .col-sm-6 a img{
+    width: 100%;
+    max-width: 100%;
+    height: 10px;
+   }
  
 }
