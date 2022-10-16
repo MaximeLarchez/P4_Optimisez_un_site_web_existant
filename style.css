@@ -17,9 +17,7 @@ button{
     margin-right: 15px;
     margin-top: 3px;
 }
-button:active{
-    background-color: red;
-}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
