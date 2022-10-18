@@ -640,8 +640,7 @@ h4 {
     margin-bottom: 24px;
 }
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -960,16 +959,10 @@ header img{
    margin:0 auto;
 }
 
-#bloc-4-portfolio p {
-    
-    margin: 20px 0px;
-}
+
 #bloc-4-portfolio h2{
-    
-    margin-bottom: 50px;
+     margin-bottom: 50px;
 }
-
-
 
 
 /* PAGE CONTACT MODIF */
@@ -990,10 +983,15 @@ header img{
     margin: 20px 0px;
     border-radius: 20px;
 }
+.col-sm-6{
+    margin-bottom: 50px;
+}
+
 .col-sm-6 p{
     flex-basis: 100%;
     font-size: 15px;
     margin: 0 auto;
+    
 }
 
 /* nouvelle media queries */
@@ -1010,9 +1008,11 @@ header img{
     .col-sm-6 a{
         width: 100%;
         height: auto;
+        
    }
     .col-sm-6 a img{
         width: 100%;
         height: auto;
     }
+    
 }
