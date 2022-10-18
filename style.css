@@ -728,6 +728,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+   
 }
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
@@ -906,22 +907,24 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
 }
 
 
 
 /* Index page */
 
-header{
-    display: flex;
-    padding: 0px 20px;
-}
+
 header img{
     
     width: 100%;
     height: 40px;
 }
 
+#bloc-1-hero{
+    width: 100%;
+    height: auto;
+}
 /* retouche image panthere */
 .center-block{
     width: 90px;
@@ -948,7 +951,7 @@ header img{
 }
 #bloc-4-portfolio img{
     width: 100%;
-    height: 280px;
+    height: 300px;
     object-fit: cover;
 }
 #bloc-4-portfolio a{
@@ -996,32 +999,20 @@ header img{
 /* nouvelle media queries */
 @media (min-width: 767px){
     #bloc-4-portfolio>div{
-        
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         max-width: 1000px;
-        
     }
-   
     .col-sm-6{
-   
-   
-   width: 50%;
-   
-  
-   
-   
+        width: 50%;
    }
-   .col-sm-6 a{
-   
-    width: 100%;
-    height: auto;
+    .col-sm-6 a{
+        width: 100%;
+        height: auto;
    }
-   .col-sm-6 a img{
-    width: 100%;
-    max-width: 100%;
-    height: 10px;
-   }
- 
+    .col-sm-6 a img{
+        width: 100%;
+        height: auto;
+    }
 }
